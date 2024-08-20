@@ -37,11 +37,15 @@ p { font-size: 1.3em;
 /* Media Queries para dispositivos móveis */
 @media (max-width: 768px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 1.0em;
     }
-
+    
+    h2 {
+        font-size: 0.6em;
+    }
+    
     p {
-        font-size: 1.1em;
+        font-size: 0.4em;
         margin-right: 1.5cm;
         margin-left: 1.5cm;
     }
@@ -53,11 +57,15 @@ p { font-size: 1.3em;
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 1.2em;
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 0.4em;
     }
 
     p {
-        font-size: 1em;
+        font-size: 0.2em;
         margin-right: 1cm;
         margin-left: 1cm;
     }
